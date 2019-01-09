@@ -1,4 +1,4 @@
-Collecting Static Files
+Collecting Static Files 
 ============================================
 
 .. contents::
@@ -21,7 +21,7 @@ At deployment, collect static files out of these directories with the following 
 
 ::
 
-    python3 manage.py dmp_collectstatic
+    python3 manage.py dmp_collectstatic (This command is not available in the latest versions of DMP)
 
 If your project contains both DMP and regular Django apps, you can collect static files with both commands:
 
